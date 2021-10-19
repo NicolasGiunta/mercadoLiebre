@@ -1,0 +1,84 @@
+* {
+    
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif; 
+    background-color: #ebebeb;
+  }
+  cat{
+text-align: center;
+flex-direction: column;
+justify-content: center;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+
+form{
+  
+  align-items: center;
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+ cat{
+   display: flex;
+ }
+.tipoUsuario {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+}
+div{
+margin-top: 10px ;
+margin-bottom: 10px;
+display: flex;
+align-content: space-around;
+align-items: center;
+justify-content: center;
+}
+div label{
+  display: flex;
+
+}
+
+input{
+  width: 100%;
+  border-radius: 6px;
+  background-color: white;
+  padding: 3px;
+  margin: 5px;
+  border: transparent;
+}
+ h4{
+   font-size: 20px;
+   text-align:left;
+   margin-top: 0px;
+ }
+ .fecha{
+   display: flex;
+  flex-direction: column;
+   align-content: center;
+ }
+p input .foto{
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+button{
+  border-radius: 6px;
+  color: white;
+  background-color: #1259c3;
+}
+
+.barras{
+  width: 100%;
+  
+}

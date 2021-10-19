@@ -1,0 +1,30 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif; 
+    background-color: #ebebeb;
+  }
+body{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+p input{
+  width: 100%;
+  border-radius: 6px;
+  background-color: white;
+  border: transparent;
+}
+
+
+
+
+button{
+  border-radius: 6px;
+  color: white;
+  background-color: #1259c3;
+}
+

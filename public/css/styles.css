@@ -1,0 +1,357 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif; 
+    background-color: #ebebeb;
+  }
+  .nav-enlace{
+      color:#03264C;
+      background-color:#EAC926;
+      text-decoration: none; 
+    }
+  header{
+      background-color: #EAC926;
+      width: 100%;
+      font-family: 'Roboto';
+      font-size: 30px;
+  }
+
+  img{
+    width:50%;
+  }
+   div .logo{
+     width: 50%;
+   }
+  body{
+      background-color: #ebebeb;
+      font-family: 'Roboto'
+    }
+    header div{
+      width: 60%;
+    }
+
+.menu {
+     background-color:#1259c3;
+     color: white;
+     width: 10%;
+     text-align: center;
+      margin: 0 auto;
+      font-size: 150%;
+      border-radius: 6px;
+      display: block;
+      
+}
+
+li{
+    text-decoration: white;
+}
+
+
+.imag{
+  width: 100%;
+
+}
+
+
+.fa-truck{
+    display: block;
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+
+
+
+
+pie{
+  text-align:center;
+  font-size: 16px;
+  border-top: 10px;
+
+}
+footer pie h3{
+  text-align: center;
+  border-top: 10px;
+}
+
+h6{
+  font-style:normal;
+}
+
+#icons{
+  color:#1259c3;
+  margin:center;
+  width: 100%;
+  font-size:2em ;
+  margin-top: 10px;
+}
+
+.fa-search{
+  font-size: 40%;
+  
+}
+
+
+
+.fa-hand-holding-usd{
+  margin-left: 5%;
+  bottom:5%;
+}
+h5{
+  align-content: center;
+  font-size: 100%;
+  
+}
+header, p, li, a {
+text-decoration: black;
+list-style:none;
+color: black;
+}
+
+header div .buscador{
+margin-left: 37%;
+border-radius: 10%;
+}
+input{
+  font-size: 10px;
+ 
+}
+
+
+
+
+
+
+h3{
+  font-size: 24px;
+  text-align: left;
+}
+strong{
+  font-size: 16px;
+}
+
+header div a{
+  font-style: none;
+  text-decoration: none;
+}
+
+footer{
+  font-family: 'Roboto'
+}
+main{
+  font-family: 'Roboto';
+  font-size: 90%;
+  text-align: center;
+ 
+}
+
+article{
+  top: 10px;
+  border: solid 15px #ebebeb;
+  position: relative;
+  background-color: #ffffff ;
+}
+
+.descripo {
+  border-top: solid 3px #ebebeb;
+
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 5px;
+ 
+}
+
+
+article li{
+  font-size: 20px;
+  
+  color:#39b54a ;
+  
+}
+
+
+footer pie .finalblock{
+  margin-buttom: 10px;
+  margin-top: 10px;
+}
+
+
+  header{ background-color: #EAC926;
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  header p{
+    font-size: 40%;
+      display: flex;
+       margin-bottom: 15px;
+       justify-content: center;
+  
+  }
+  fa-bars {
+    background-color:#1259c3;
+    color: white;
+    display: block;
+    justify-content: center;
+    text-align: center;
+     margin: 0 auto;
+     border-radius: 6%;
+     font-size: 5%;
+     display: flex;
+    justify-content: center;
+    width: 15px;
+  height: 15px;
+}
+.menu{
+  font-size: 100%;
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+main{
+
+  text-align: left;
+  
+}
+
+header li {
+  display: none;
+}
+
+strong{
+  display: none;
+}
+.description{
+  opacity: 0;;
+  margin-top: 20px;
+  transition: all 1ms;
+}
+
+article:hover .main-article .description{
+  opacity: 1;;
+}
+
+article{
+   border-radius: 2%;
+   transition:box-shadow 400ms;
+}
+article:hover {
+box-shadow:0px 0px 10px rgb(46, 46, 46);
+}
+.fa-truck{
+transition: transform 400ms;
+}
+article:hover .main-article .fa-truck{
+   transform: rotate(-90deg);
+}
+.top{
+  width: 100%;
+  display: flex;
+  padding: 2%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+buscador{
+  display: flex;
+    align-items: center;
+    font-size: 11px
+}
+
+@media (min-width:426px){
+  header{ background-color: #EAC926;
+    font-size: 30px;
+    padding: 10px;
+   
+  }
+  header li {
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    
+  }
+  header h5{
+    font-size: 40%;
+   text-align: center;
+  }
+  
+  article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 10px;
+  }
+  main{
+    text-align: center;
+    width: 90%;
+    margin-left: 35px;
+ 
+  }
+
+  header{
+    display:flexbox
+  }
+  strong{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+   font-style: normal;
+  }
+  .menu{
+   display: none;
+ }
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+header p{
+  font-size: 90%;
+  display: flex;
+   margin-bottom: 15px;
+   justify-content: right;
+   padding: 10px;
+   
+ }
+
+ img{
+   width: 33%;
+ }
+
+.top{
+  display:flex;
+  flex-wrap:nowrap;
+  padding: 5%;
+  box-sizing: border-box;
+}
+.buscador{
+  display: flex;
+  flex-wrap: wrap;
+}
+header div{
+  display: contents;
+}
+
+.fa-search{
+  font-size: 120%;
+  
+}
+
+
+header input{
+  font-size: 20px;
+}
+
+
+}
