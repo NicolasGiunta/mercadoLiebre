@@ -18,7 +18,11 @@ app.get('/register', (req, res)=>{
 app.get('/login', (req, res)=>{
     res.sendFile(path.join(__dirname, "./views/login.html"))})
 
- 
-app.listen(PUERTO, ()=>{console.log("Andando sin problema")});
+
+    app.listen(process.env.PORT || 3000, function(){
+        console.log('Servidor Corriendo en el puerto 3000')
+    });
+    
+//app.listen(PUERTO, ()=>{console.log("Andando sin problema")});//
 
 
